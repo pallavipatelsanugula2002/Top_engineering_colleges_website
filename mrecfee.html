@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .grid-container{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: rgb(153, 255, 0);
+            width: 400px;
+           margin-left: 550px;
+           row-gap: 3px;
+           column-gap: 3px;
+        }
+        .grid-container>div{
+            border: 2px solid black;
+            text-align: center;
+            height: 30px;
+            vertical-align: middle;
+            background-color: pink;
+
+        }
+    </style>
+</head>
+<body style="background-image: url(jntucontactimgg.jpeg);background-size: cover;">
+    <h1 style="text-align: center;background-color: blanchedalmond;position: sticky;top: 10px;">FEE STRUCTURE</h1>
+    <div class="grid-container">
+       <div class="item1">S.NO</div>
+       <div class="item1">Details of fee payment</div>
+       <div class="item1">Amount in RS</div>
+       <div class="item1">1</div>
+       <div class="item1">Admission processiong fee</div>
+       <div class="item1">1,200</div>
+       <div class="item1">2</div>
+       <div class="item1">Tuition Fee</div>
+       <div class="item1">70,000</div>
+       <div class="item1">3</div>
+       <div class="item1">Tuition Fee(Self Finance)</div>
+       <div class="item1">1,00,000</div>
+       
+    </div>
+   
+    <h2 style="text-align: center;background-color:purple;border: 1px solid black;border: 8px;margin-left: 45%;width:200px;color: antiquewhite;">PAY FEE</h2>
+    <div style="background-image: url(mrecfeecanva.jpg);background-repeat: no-repeat;background-size: cover;height: 500px;width: 100%;">
+    
+    <form style="background-color: aqua;float: right;width: 500px;height: 400px;margin-right: 50px;box-sizing: border-box;border-radius: 10px;border: 2px solid black;margin-top: 50px;">
+        <h2 style="text-align: center;">LOGIN</h2>
+        <label for="org" style="padding-top: 30px;padding-left: 50px;margin-top: 30px;font-size: 20px;">Organization Name</label><br>
+        <select id="org" name="org name" style="border: 2px solid black;border-radius: 8px;margin-left: 50px;width:400px;height: 30px;">
+        <option>MREC</option>
+        <option>JNTU kondagattu</option></select><br>
+        <label for="user" style="padding-top: 10px;margin-left: 50px;font-size:20px ;">User Name</label><br>
+        <input type="text" id="User" style="border: 2px solid black;border-radius: 8px;margin-left: 50px;width:400px;height: 25px;"><br>
+        <label for="password" style="padding-top: 10px;margin-left: 50px;font-size: 20px;">Password</label><br>
+        <input type="password" id="password"  style="border: 2px solid black;border-radius: 8px;margin-left: 50px;width:400px;height: 25px;"><br><br><br>
+        <input type="button" value="submit" style="border: 2px solid black;border-radius: 8px;background-color: orange;margin-left: 50px;width:400px;height: 25px;">
+    </form>
+</div>
+</body>
+</html>
